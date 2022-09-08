@@ -26,6 +26,8 @@
 		8BB3588D28CA13970044A647 /* Lab1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Lab1; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BB3589028CA13970044A647 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		8BB3589828CA19550044A647 /* name.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = name.h; sourceTree = "<group>"; };
+		8BB3589D28CA25840044A647 /* data.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = data.h; sourceTree = "<group>"; };
+		8BB3589E28CA27A60044A647 /* HW1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HW1.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +44,7 @@
 		8BB3588428CA13970044A647 = {
 			isa = PBXGroup;
 			children = (
+				8BB3589928CA24A50044A647 /* HomeWork */,
 				8BB3589728CA19230044A647 /* Hader folder */,
 				8BB3588F28CA13970044A647 /* Lab1 */,
 				8BB3588E28CA13970044A647 /* Products */,
@@ -68,8 +71,17 @@
 			isa = PBXGroup;
 			children = (
 				8BB3589828CA19550044A647 /* name.h */,
+				8BB3589D28CA25840044A647 /* data.h */,
 			);
 			path = "Hader folder";
+			sourceTree = "<group>";
+		};
+		8BB3589928CA24A50044A647 /* HomeWork */ = {
+			isa = PBXGroup;
+			children = (
+				8BB3589E28CA27A60044A647 /* HW1.h */,
+			);
+			path = HomeWork;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

@@ -1,18 +1,15 @@
 #include <locale.h>
 #include <stdio.h>
 #include "name.h"
+#include "data.h"
+#include "HW1.h"
 
-
-int main()
+void main()
 {
-    setlocale(LC_ALL, "RUS");
     name();
-    puts ("   __                             ___     ___         ");
-    puts ("     |    |   |     /|    /|     |   |       |        ");
-    puts ("   __|    |___|    / |   / |     |   |      _|        ");
-    puts ("  |           |      |     |     |   |       |        ");
-    puts ("  |__         |      |     |     |___|    ___|        ");
+    name();
+    data();
+    name();
+    
     getchar();
 }
-
-
