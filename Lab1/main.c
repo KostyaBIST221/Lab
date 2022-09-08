@@ -6,11 +6,7 @@
 
 void main()
 {
+    puts("Дз. Сапов К.Р., бист-221");
     homework1();
-    name();
-    name();
-    data();
-    name();
-    
     getchar();
 }
