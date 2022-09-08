@@ -6,6 +6,7 @@
 
 void main()
 {
+    homework1();
     name();
     name();
     data();
